@@ -1,0 +1,60 @@
+body{
+  color: black;
+  background-color: lightgrey;
+  font-family: 'Lekton';
+  text-align: justify;
+  justify-content: center;
+}
+.container{
+  margin: 40px auto;
+  width: 700px;
+}
+.card{
+  background-color: antiquewhite;
+  justify-content: center;
+  margin: 20px 0px;
+  text-align: center;
+  padding: 40px;
+  border-radius: 4px;
+  box-shadow: 0px 0px 5px darkgray;
+}
+.social-icons{
+  display: flex;
+  justify-content: center;
+  margin-right: 42px;
+  margin-top: 30px;
+  font-size: 45px;
+ }
+a{
+  padding: 0px 10px;
+}
+i:hover{
+  color: darkgray;
+}
+i{
+  color: #050505;
+}
+.profile-img{
+  border-radius: 50%;
+  box-shadow: 0px 0px 5px darkgray;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
